@@ -1,0 +1,475 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', cursive;
+}
+
+.box-outer {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.div-top-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-inner-out {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.section-div-outer-top {
+    width: 100%;
+    height: 15%;
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.nav-label {
+   color: #FF6000;   
+}
+
+.div-top-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.logo-title {
+    font-family: 'Rubik', cursive;
+    font-size: 157%;
+    color: #FF6000;
+}
+
+.div-top-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-family: 'Rubik', cursive;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3%;
+}
+
+.header1 {
+    font-size: 6.5vh;
+    color: white;
+}
+
+.midder-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.div-right {
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+}
+
+.data-input-form {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.div-set-1 {
+    color:white;
+    padding-top: 10vh;
+    width: 100%;
+    height: 100%;
+}
+
+.div-set-02 {
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+}
+
+.tit1 {
+    color: white;
+}
+
+.div-set-03 {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    padding-left: 4.5%;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.user-input-field {
+    width: 30%;
+    transition: 0.2s;
+    height: 6vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #464c3a;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field:hover {
+    border-color: #647d14;
+    transition: 0.2s;
+}
+
+.delete-button {
+    text-decoration: none;
+    background-color: #c0392b;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 12px;
+    border: none;
+}
+
+.update-button {
+    background-color: #27ae60;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 12px;
+    border: none;
+}
+
+.combo-11 {
+    width: 30%;
+    transition: 0.2s;
+    height: 6vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    margin-top: -0.4vh;
+    padding-left: 5px;
+}
+
+.combo-12 {
+    width: 61%;
+    transition: 0.2s;
+    height: 6vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    margin-top: -0.4vh;
+    padding-left: 5px;
+}
+
+.user-input-field2 {
+    width: 61.4%;
+    transition: 0.2s;
+    height: 6vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field2:hover {
+    transition: 0.2s;
+    border-color: #647d14;
+}
+
+.user-input-field2-name {
+    width: 50%;
+    transition: 0.2s;
+    height: 6vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field2-name:hover {
+    transition: 0.2s;
+    border-color: #647d14;
+}
+
+.combo-1-large {
+    width: 60.4%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.combo-1-large:hover {
+    width: 60.4%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #e9c57d;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.submit-button {
+    width: 62%;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10vh;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #FF6000;
+    background: #FF6000;
+}
+
+.role-btn1 {
+    width: 20vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+    border-top-left-radius: 0.5vh;
+    border-bottom-left-radius: 0.5vh;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    background: black;
+}
+
+.role-btn2 {
+    width: 24.7vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    border-left: none;
+    outline: none;
+    background: black;
+}
+
+.role-btn3 {
+    width: 21vh;
+    height: 6vh;
+    cursor: pointer;
+    border-top-right-radius: 0.5vh;
+    border-bottom-right-radius: 0.5vh;
+    transition: 0.3s;
+    background: black;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    border-left: none;
+    outline: none;
+}
+
+.role-btn1:hover {
+    background: #788d36;
+    transition: 0.3s;
+    color: white;
+}
+
+.role-btn2:hover {
+    background: #788d36;
+    transition: 0.3s;
+    color: white;
+}
+
+.role-btn3:hover {
+    background: #788d36;
+    transition: 0.3s;
+    color: white;
+}
+
+.submit-button:hover {
+    background: #847efa;
+    transition: 0.3s;
+    color: white;
+}
+
+.section2 {
+    width: 100%;
+    height: 170vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65vh;
+    background: black;
+}
+
+.section-div-outer-top {
+    width: 100%;
+    height: 15%;
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.div-top-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.section-2-div-top-search {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-search-form {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_field {
+    width: 40%;
+    height: 60%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-style: solid;
+    border-color: #3c4d04;
+    border-right: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2%;
+    font-size: 90%;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    width: 10%;
+    height: 60%;
+    box-shadow: 5px 0px 15px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Rubik', cursive;
+    background-color: #FF6000;
+    letter-spacing: 1px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: solid;
+    border-color: #FF6000;
+    border-left: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container {
+    position: absolute;
+    margin-top: -65vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+th {
+    text-align: left;
+}
+
+thead th {
+    background-color: #FF6000;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody td {
+    position: relative;
+}
+
+tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+.ft {
+    width: 100%;
+    height: 10vh;
+    padding-top: 4vh;
+    color: white;
+    background-color: #FF6000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
